@@ -4,6 +4,7 @@ import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { Mentorship } from "@/components/Mentorship";
 import { Results } from "@/components/Results";
 import { Services } from "@/components/Services";
 import { Speaking } from "@/components/Speaking";
@@ -21,6 +22,7 @@ export default function Home() {
         <Results />
         <Speaking />
         <Testimonials />
+        <Mentorship />
         <CTA />
       </main>
       <Footer />
